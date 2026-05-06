@@ -12,6 +12,7 @@
 		C60AE0902FA9AF11005DAF8F /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C60AE08F2FA9AF11005DAF8F /* FirebaseAuth */; };
 		C60AE0922FA9AF11005DAF8F /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = C60AE0912FA9AF11005DAF8F /* FirebaseCore */; };
 		C63D21632FA9079A00BB2014 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = C63D21622FA9079A00BB2014 /* Kingfisher */; };
+		C68364502FAAFC38002B27F2 /* Utilities in Frameworks */ = {isa = PBXBuildFile; productRef = C683644F2FAAFC38002B27F2 /* Utilities */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C60AE08D2FA9AD54005DAF8F /* GoogleSignInSwift in Frameworks */,
+				C68364502FAAFC38002B27F2 /* Utilities in Frameworks */,
 				C60AE0922FA9AF11005DAF8F /* FirebaseCore in Frameworks */,
 				C63D21632FA9079A00BB2014 /* Kingfisher in Frameworks */,
 				C60AE08B2FA9AD54005DAF8F /* GoogleSignIn in Frameworks */,
@@ -96,6 +98,7 @@
 				C60AE08C2FA9AD54005DAF8F /* GoogleSignInSwift */,
 				C60AE08F2FA9AF11005DAF8F /* FirebaseAuth */,
 				C60AE0912FA9AF11005DAF8F /* FirebaseCore */,
+				C683644F2FAAFC38002B27F2 /* Utilities */,
 			);
 			productName = o2hPracktical;
 			productReference = C600F6732FA8B8BE0018F550 /* o2hPracktical.app */;
@@ -129,6 +132,7 @@
 				C63D21612FA9079A00BB2014 /* XCRemoteSwiftPackageReference "kingfisher" */,
 				C60AE0892FA9AD54005DAF8F /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
 				C60AE08E2FA9AF11005DAF8F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				C683644E2FAAFC38002B27F2 /* XCRemoteSwiftPackageReference "Utilities" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = C600F6742FA8B8BE0018F550 /* Products */;
@@ -404,6 +408,14 @@
 				minimumVersion = 8.8.1;
 			};
 		};
+		C683644E2FAAFC38002B27F2 /* XCRemoteSwiftPackageReference "Utilities" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hdkmodha/Utilities.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -431,6 +443,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = C63D21612FA9079A00BB2014 /* XCRemoteSwiftPackageReference "kingfisher" */;
 			productName = Kingfisher;
+		};
+		C683644F2FAAFC38002B27F2 /* Utilities */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C683644E2FAAFC38002B27F2 /* XCRemoteSwiftPackageReference "Utilities" */;
+			productName = Utilities;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

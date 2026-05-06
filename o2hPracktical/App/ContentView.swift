@@ -17,9 +17,10 @@ struct ContentView: View {
             case .unknown:
                 ProgressView()
             case .authenticated:
-                NavigationStack {
-                    ProfileView()
-                }
+                
+                TabbarView()
+                
+                
             case .unauthenticated:
                 GoogleSignView()
             }

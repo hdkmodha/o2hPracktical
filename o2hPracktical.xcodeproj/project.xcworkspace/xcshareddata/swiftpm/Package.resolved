@@ -1,5 +1,5 @@
 {
-  "originHash" : "4c011a5a4566322867fc16b9ba3d30dd3e178709cc005e9915d726d356ccaf56",
+  "originHash" : "5833931bfc605de9d3fe572eda48bf12962ab7c30607a40e15abfe02513f839b",
   "pins" : [
     {
       "identity" : "abseil-cpp-binary",
@@ -152,6 +152,15 @@
       "state" : {
         "revision" : "540318ecedd63d883069ae7f1ed811a2df00b6ac",
         "version" : "2.4.0"
+      }
+    },
+    {
+      "identity" : "utilities",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/hdkmodha/Utilities.git",
+      "state" : {
+        "revision" : "028e94fd596ebfe190bb44d58503d1d8a30e7d96",
+        "version" : "2.3.1"
       }
     }
   ],
