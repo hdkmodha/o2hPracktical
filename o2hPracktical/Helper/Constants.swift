@@ -9,5 +9,5 @@ import Foundation
 
 enum Constants {
     
-    static let api = "https://api.unsplash.com/search/photos?page=1&query=Flowers&client_id=xz5MUitr6CDevL5gRiAEXSHVeD14I4XYpSLvv6zTd2s&per_page=10"
+    static let api = "https://api.unsplash.com/search/photos?page=1&query=Flowers&client_id=xz5MUitr6CDevL5gRiAEXSHVeD14I4XYpSLvv6zTd2s&per_page=20"
 }

@@ -13,7 +13,7 @@ struct PhotoListView: View {
     @State private var viewModel: PhotoViewModel = .init()
     
     private let columns: [GridItem] = [
-        .init(.flexible(), spacing: 16),
+        .init(.flexible(), spacing: 8),
         .init(.flexible())
     ]
     
@@ -25,8 +25,9 @@ struct PhotoListView: View {
                         KFImage(photo.urls.imageUrl)
                             .cacheMemoryOnly(false)
                             .scaledToFill()
-                            .frame(width: 150, height: 150)
-                            .clipShape(.capsule(style: .circular))
+                            .frame(width: 180, height: 180)
+                            .clipShape(.rect)
+                            .cornerRadius(10)
                     }
                 }
                 .padding(.horizontal, 8)
